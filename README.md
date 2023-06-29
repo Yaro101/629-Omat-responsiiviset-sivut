@@ -19,6 +19,8 @@ The website consists of the following pages:
 
 ## Usage
 
+Check it out here: https://yaro101.github.io/responsiivinen-verkkosivu-joka-esittelee-Tieto--ja-viestint-tekniikan-perustutkintoa/tutkinnon_rakenne.html
+
 To view the website locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your-repo-url.git`
