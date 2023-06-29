@@ -19,7 +19,7 @@ The website consists of the following pages:
 
 ## Usage
 
-Check it out here: https://yaro101.github.io/responsiivinen-verkkosivu-joka-esittelee-Tieto--ja-viestint-tekniikan-perustutkintoa/tutkinnon_rakenne.html
+Check it out here: https://yaro101.github.io/responsiivinen-verkkosivu-joka-esittelee-Tieto--ja-viestint-tekniikan-perustutkintoa/index.html
 
 To view the website locally, follow these steps:
 
