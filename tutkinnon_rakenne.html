@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tieto ja viestintätekniikkaai - Tutkinnon rakenne</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo-h"><span>Tieto</span> ja viestintätekniikkaa</a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="index.html" onclick="toggleMenu();">Etusivu</a></li>
+            <li><a href="tutkinnon_rakenne.html" onclick="toggleMenu();">Tutkinnon rakenne</a></li>
+            <li><a href="tutkinnonosat.html" onclick="toggleMenu();">Tutkinnonosat</a></li>
+            <li><a href="kriteerit.html" onclick="toggleMenu();">Kriteerit</a></li>
+            <li><a href="arviointi.html" onclick="toggleMenu();">Arviointi</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Tutkinnon muodostuminen</h2>
+        </div>
+    </section>
+
+    <section class="container">
+        <p>Tieto- ja viestintätekniikan perustutkinnon laajuus on 180 osaamispistettä. Tutkinto muodostuu ammatillisista tutkinnon osista (145 osaamispistettä) ja yhteisistä tutkinnon osista (35 osaamispistettä).</p>
+        <br>
+        <p>Ammatillisista tutkinnon osista pakollisia on 70—115 osaamispistettä ja valinnaisia 30—75 osaamispistettä. Tieto- ja viestintätekniikan perustutkinto sisältää seuraavat tutkintonimikkeet:</p>
+        <ul class="sp-ul">
+            <li>elektroniikka-asentaja</li>
+            <li>hyvinvointiteknologia-asentaja</li>
+            <li>tietoverkkoasentaja</li>
+            <li>IT-tukihenkilö</li>
+            <li>ohjelmistokehittäjä</li>    
+        </ul>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <a href="https://esedu.fi/"><img src="./images/esedu logo.jpg" class="logo" alt="logo"></a>
+                <h3>Etelä-Savon ammattiopisto</h3>
+            </div>
+            <div class="col">
+                <h3>Osoite</h3>
+                <p>Mikkeli, Pieksämäki</p>
+                <p>PL 304, FI-50101 Mikkeli</p>
+                <p class="email">hakupiste@esedu.fi</p>
+            </div>
+            <div class="col">
+                <h3>Linkit</h3>
+                <ul class="footer-ul">
+                    <li><a href="index.html">Etusivu</a></li>
+                    <li><a href="tutkinnon_rakenne.html">Tutkinnon rakenne</a></li>
+                    <li><a href="tutkinnonosat.html">Tutkinnonosat</a></li>
+                    <li><a href="kriteerit.html">Kriteerit</a></li>
+                    <li><a href="arviointi.html">Arviointi</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Seuraa meitä</h3>
+                <div class="some">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <br><br>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
