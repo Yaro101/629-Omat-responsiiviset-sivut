@@ -19,8 +19,7 @@ Verkkosivusto koostuu seuraavista sivuista:
 
 ## Käyttö
 
-Katso verkkosivusto täältä: [https://yaro101.github.io/responsiivinen-verkkosivu-joka-esittelee-Tieto--ja-viestint-tekniikan-perustutkintoa/index.html](https://yaro101.github.io/responsiivinen-verkkosivu-joka-esittelee-Tieto--ja-viestint-tekniikan-perustutkintoa/index.html)
-
+Katso verkkosivusto täältä: https://yaro101.github.io/629-Omat-responsiiviset-sivut/
 Voit katsella verkkosivustoa paikallisesti seuraamalla näitä ohjeita:
 
 1. Kloonaa repositorio: `git clone https://github.com/your-repo-url.git`
@@ -40,7 +39,7 @@ Jos haluat osallistua tähän projektiin, voit vapaasti lähettää pull request
 ### HTML-tiedostot
 
 Lisätietoja verkkosivuston jokaisesta sivusta löydät yksittäisistä HTML-tiedostoista.
-```
+
 
 # En
 school assignment
@@ -61,8 +60,7 @@ The website consists of the following pages:
 
 ## Usage
 
-Check it out here: https://yaro101.github.io/responsiivinen-verkkosivu-joka-esittelee-Tieto--ja-viestint-tekniikan-perustutkintoa/index.html
-
+Check it out here: https://yaro101.github.io/629-Omat-responsiiviset-sivut/
 To view the website locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your-repo-url.git`
